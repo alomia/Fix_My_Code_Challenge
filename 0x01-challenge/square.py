@@ -17,9 +17,11 @@ class square():
         return self.width * self.height
 
     def PermiterOfMySquare(self):
+        """PemriterOfMySquare"""
         return (self.width + self.height) * 2
 
     def __str__(self):
+        """return string square"""
         return "{}/{}".format(self.width, self.height)
 
 if __name__ == "__main__":
